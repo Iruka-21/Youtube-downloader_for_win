@@ -1,0 +1,19 @@
+# 仮想環境
+venv/
+.env/
+
+# Pythonのキャッシュ
+__pycache__/
+*.pyc
+
+# 自動ダウンロードされたFFmpegフォルダ
+bin/
+
+# PyInstaller のビルド生成物
+build/
+dist/
+*.spec
+
+# アプリの設定ファイル・ログ
+downloader_config.json
+*.log
